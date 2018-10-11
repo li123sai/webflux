@@ -1,0 +1,12 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 5MB
+      max-request-size: 5MB
+#连接mongodb数据库
+  data:
+    mongodb:
+      database: mydb1
+      host: localhost
+      port: 27017
